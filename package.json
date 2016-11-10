@@ -1,0 +1,35 @@
+{
+  "name": "kissmock",
+  "version": "0.0.1",
+  "description": "A simple and quick mocking library for JavaScript written in TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "compile-watch": "tsc -w",
+    "debug": "./node_modules/mocha/bin/mocha --recursive --debug-brk",
+    "test": "./node_modules/mocha/bin/mocha --recursive -s 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joefallon/kissmock.git"
+  },
+  "keywords": [
+    "tdd",
+    "testing",
+    "mock",
+    "TypeScript"
+  ],
+  "author": "Joe Fallon <joseph.t.fallon@gmail.com> (http://blog.joefallon.net)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joefallon/kissmock/issues"
+  },
+  "homepage": "https://github.com/joefallon/kissmock#readme",
+  "devDependencies": {
+    "@types/chai": "^3.4.34",
+    "@types/mocha": "^2.2.32",
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  },
+  "types": "./src"
+}
