@@ -1,6 +1,6 @@
 {
   "name": "kissmock",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A simple and quick mocking library for JavaScript written in TypeScript.",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
     "TypeScript"
   ],
   "author": "Joe Fallon <joseph.t.fallon@gmail.com> (http://blog.joefallon.net)",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/joefallon/kissmock/issues"
   },
