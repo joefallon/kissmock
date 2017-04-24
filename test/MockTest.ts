@@ -33,7 +33,7 @@ describe('Mock', () => {
                 mock.setFunctionReturnValue('', null);
             } catch(err) {
                 assert.isTrue(err instanceof Error);
-                assert.equal(<Error>err.message, 'Function name cannot be empty');
+                assert.equal(err.message, 'Function name cannot be empty');
                 done();
                 return;
             }

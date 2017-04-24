@@ -7,7 +7,8 @@
     "compile": "tsc",
     "compile-watch": "tsc -w",
     "debug": "./node_modules/mocha/bin/mocha --recursive --debug-brk",
-    "test": "./node_modules/mocha/bin/mocha --recursive -s 0"
+    "test": "./node_modules/mocha/bin/mocha --recursive -s 0",
+    "test-watch": "./node_modules/mocha/bin/mocha --recursive -s 0 --watch"
   },
   "repository": {
     "type": "git",
